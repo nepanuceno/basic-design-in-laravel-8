@@ -23,6 +23,12 @@ do Perfil de Administrador do Sistema.
 
 - ROLE_ADMIN="Administrator"
 
+- TIMEZONE='America/Araguaina'
+- APP_LOCALE='pt-br'
+
+- INTERPRISE_NAME="NOME DA EMPRESA"
+- INTERPRISE_MAIL="mail@mail.com"
+
 - composer install
 - php artisan db:seed --class=PermissionTableSeeder
 - php artisan db:seed --class=CreateAdminUserSeeder
