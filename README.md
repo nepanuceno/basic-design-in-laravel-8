@@ -1,6 +1,12 @@
 <p align="center"><a href="https://laravel.com" target="_blank">
 <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+Este projeto básico para início de um sistema com Laravel 8 conta com Autenticação de usuários, autorizações de usuários com Perfis e Permissões utilizando o pacote do <a href="#">Spatie</a> <a href="https://github.com/spatie/laravel-permission">Laravel Permission</a>, gerenciamento de usuários e perfis. 
+O projeto possui implementação de registro de logs utilizando o Pacote <a href="https://github.com/spatie/laravel-activitylog">laravel-activitylog</a>
+
+O padrão de projeto utilizado é o Repository Patern.
+
+
 ## Start
 
 - cp .env.example .env
